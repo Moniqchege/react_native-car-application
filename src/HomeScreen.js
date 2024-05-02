@@ -128,6 +128,7 @@ const styles = StyleSheet.create({
     flex: 1,
     paddingRight: 35,
     paddingLeft: 35,
+    marginTop: 40
   },
   headerSection: {
     height: 70,
@@ -140,10 +141,12 @@ const styles = StyleSheet.create({
   },
   faceIconStyle: {
     width: 40,
+    height: 40,
+    borderRadius: 20,
   },
 
   titleSection: {
-    marginTop: 15,
+    marginTop: 10,
   },
   title: {
     fontSize: 32,
